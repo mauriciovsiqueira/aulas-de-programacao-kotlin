@@ -1,0 +1,3 @@
+Atalhos do teclado.
+Ctrl + Shift + cima ou baixo - Move a linha para cima ou baixo.
+Ctrl + shift + l - Formatar o código.

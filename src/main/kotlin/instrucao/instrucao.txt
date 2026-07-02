@@ -1,0 +1,33 @@
+Instalação e configuração de ambiente kotlin no linux.
+
+Veja se está instalado:
+java --version
+
+Instalar (Caso não esteja instalado).:
+Openjdk (25 é a versão LTS atualmente) e Git:
+sudo apt install openjdk-25-jdk git
+
+Veja se deu certo:
+java --version
+
+IntelliJ:
+Pela loja ou site.
+
+Tirar a correção ortográfica do inglês e Autosave:
+Menu barras -> Settings -> Natural Languages -> Configure 'Proofreading' inspections... -> Proofreading e desmarque ela.
+Menu barras -> Appearance & Behavior -> System Settings -> Save files if... e marque a caixa e coloque quanto tempo para salvar.
+Aplique e OK.
+
+Android Studio:
+Veja a documentação e instale o essencial (Opcional).
+Android studio (Ter bastante memoria RAM - 16gb é bom).
+
+Obs.: Os dois pelo site oficial (Recomendação).
+
+Está em more actions:
+Criar emulador android (Virtual device manager).
+
+Instalar o SDK android (SDK manager):
+SDK tools -> Marque o Android sdk comand line tools (latest) e aplicar.
+
+Obs.: O genymotion é uma alternativa (mude o caminho do SDK para funcionar com vs code e deixe rodando o emulador para aparecer), mas o próprio celular é melhor para pc fraco, libere a opção de desenvolvedor -> habilite a depuração usb, instalação por usb e configuração.
